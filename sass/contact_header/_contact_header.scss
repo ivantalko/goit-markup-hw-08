@@ -1,0 +1,51 @@
+.contact {
+                display: flex;
+                vertical-align: middle;
+                padding: 0;
+                &__link {
+                display: flex;
+                align-items: center;
+}
+
+                &__icon {
+                margin-right: 10px;
+                fill: #757575;
+                transition: 250ms var(--timing-function);
+                .contact__link:hover & {
+                fill: #2196f3;
+}               .contact__link:focus & {
+                fill: #2196f3;
+}
+}
+&__item {
+                margin-right: 30px;
+}
+
+&__item:last-child {
+                margin-right: 0;
+}
+&__link {
+                font-weight: 500;
+                font-size: 14px;
+                letter-spacing: 0.02em;
+                text-decoration: none;
+                color: #757575;
+                transition: 250ms var(--timing-function);
+                .contact &:hover,
+                .contact &:focus {
+                color: var(--acsent-color);
+}
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
