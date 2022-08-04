@@ -1,4 +1,4 @@
-.contact {
+.contact {      
                 display: flex;
                 vertical-align: middle;
                 padding: 0;
@@ -13,7 +13,8 @@
                 transition: 250ms var(--timing-function);
                 .contact__link:hover & {
                 fill: #2196f3;
-}               .contact__link:focus & {
+ }                 
+             .contact__link:focus & {
                 fill: #2196f3;
 }
 }

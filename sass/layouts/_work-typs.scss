@@ -1,4 +1,9 @@
 .work {
+                           
+
+@media screen and (max-width:1199px) {
+         display: none;}
+   display: block;
                 margin-bottom: 94px;
                 &__typs {
                 padding: 0;
@@ -6,9 +11,10 @@
 }
 &__list {
                 padding-right: 30px;
-                .work__ &:last-child {
+                &:last-child {
                 padding-right: 0;
 }
+
 }
 &__title {
                 margin-bottom: 50px;
